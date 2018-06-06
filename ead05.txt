@@ -1,0 +1,21 @@
+﻿1) Criar o seguinte repositório no Github de vocês: "usuario_do_github_de_voces"-ead-05
+
+2) Criar um site da forma que quiserem que mostrem detalhes das parcerias de TI do Promove atualmente:
+
+Cisco Networking Academy
+Vmware IT ACADEMY
+AWS ACADEMY
+ORACLE ACADEMY
+CompTIA Academy
+Microsoft Imagine
+CompTIA IT ACADEMY
+EMC ACADEMIC ALLIANCE
+
+3) Sugestões:
+
+  - Imagens que representem cada parceria
+  - Detalhes simples de cada parceria
+
+4) Individual ou em duplas (no máximo)
+
+5) Data de entrega: 13/06/2018
