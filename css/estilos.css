@@ -1,0 +1,71 @@
+body {
+    color: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+#cisco{
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin: 7px;
+}
+#vmware{
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+}
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+p {
+    padding: 10 30px;
+    text-indent: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cisco_academy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+#vmware_academy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+#rodape {
+    color:#777;
+    margin: 160px 0;
+    padding: 160px 0;
+}
+#rodape img {
+    margin-right: 160px;
+    vertical-align: middle;
+    width: 94px;
+}
+#cisco {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+#vmware {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+.quebra {
+    clear:both;
+}
+h1{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color:#FFF;
+    background-color:#000080;
+    margin-bottom:10px;
+    padding:10px;
+}
