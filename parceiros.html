@@ -1,34 +1,229 @@
 <!DOCTYPE html>
-<head>
-    <meta charset='UTF-8'>
-    <title>Faculdade Promove Parcerias </title>
-    <link rel="stylesheet" href="./css/estilos.css">
-</head>
-<body>
-<h1>Principais parcerias</h1>    
-<hr class='quebra'>
-    <figure id='cisco'>
-        <img src='./img/cisco_networking_academy.png'>
-        <figcaption><a href="https://www.netacad.com/pt-br" target="_blank">Cisco Networking Academy</a></figcaption>
-    </figure>
-    <p>
-        "À medida que o mundo muda ao nosso redor, adquirir habilidades técnicas é o que traz a oportunidade, 
-        e a promessa da educação é o que traz esperança. Quem vai ensinar e desenvolver essas pessoas que vão mudar o mundo, 
-        esses solucionadores de problemas globais? Nós vamos. Junto com o nosso ensino, nossos instrutores e parceiros de contratação, 
-        nos comprometemos a desenvolver a força de trabalho do futuro. Junte-se a nós para mudarmos o mundo; um aluno de cada vez." Equipe Cisco
-    </p>
-<hr class='quebra'>
-    <figure id='vmware'>
-        <img src='./img/vmware.jpg'>
-        <figcaption><a href="https://mylearn.vmware.com/mgrReg/plan.cfm?plan=69513&ui=www_edu" target="_blank">Vmware IT ACADEMY</a></figcaption>
-    </figure>
-    <p>
-        "O treinamento e a certificação da VMware são um diferencial de mercado que abre as portas para uma carreira emocionante e recompensadora de TI. 
-        Com foco na construção das habilidades práticas mais relevantes no local de trabalho, o treinamento e a certificação podem fornecer um valor real no mercado de trabalho. 
-        As certificações VMware estão classificadas entre as certificações de TI mais bem pagas e demandadas, com milhares de trabalhos disponíveis à medida que as empresas virtualizam sua infraestrutura de TI e transferem as operações de negócios para a nuvem." Equipe Vmware 
-    </p>
-<div id='rodape'>
-    <img src='./img/logo_base.png'> &copy; Copyright 2018 Faculdades Promove. Todos os Direitos Reservados.        
-</div>
-</body>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+
+            <!-- codigo do menu -->
+        <nav class="blue darken-4">
+          <div class="nav-wrapper container">
+            <a href="#" class="brand-logo left"><img src="img/logo_rodape.png " class="responsive" width="140" class="middle"></a>
+            <a href="" data-activates="mobile" class="button-collapse right">
+              <i class="material-icons ">menu</i>
+              </a>
+
+            <!-- menu desktop -->
+            <ul id="nav-desktop" class="right hide-on-med-and-down">
+              <li id="active"><a href="#"><i class="material-icons left">home</i>Home</a></li>
+              <li><a href="#"><i class="material-icons left">group</i>Parcerias</a></li>
+              <li><a href="#"><i class="material-icons left">school</i>Alunos</a></li>
+            </ul>
+
+            <!-- menu mobile -->
+            <ul id="mobile" class="side-nav">
+                  <li id="active"><a href="#"><i class="material-icons left">home</i>Home</a></li>
+                  <li><a href="#"><i class="material-icons left">group</i>Parceras</a></li>
+                  <li><a href="#"><i class="material-icons left">school</i>Alunos</a></li>
+                </ul>
+        </nav>
+
+            <!-- codigo do banner -->
+            <div class="slider">
+                    <ul class="slides">
+                      <li>
+                          <img src="./img/bem_vindos.jpg" alt="Bem Vindos ao Futuro"> <!-- random image -->
+                          <div class="caption center-align">
+                          <h3></h3>
+                          <h5 class="light grey-text text-lighten-3"></h5>
+                      </div> 
+                      </li>                 
+                      <li>
+                        <img src="./img/sistemas_informacao.jpg" alt="Sistemas de Informação"> <!-- random image -->
+                        <div class="caption center-align">
+                          <h3>Sistemas de Informação</h3>
+                          <h5 class="light grey-text text-lighten-3">Graduação</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="./img/rede_computadores.jpg" alt="Redes de Computadores"> <!-- random image -->
+                        <div class="caption left-align">
+                          <h3>Redes de Computadores</h3>
+                          <h5 class="light grey-text text-lighten-3">Graduação Tecnológica</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="./img/sistemas_internet.jpg" alt="Sistemas para Internet"> <!-- random image -->
+                        <div class="caption left-align">
+                          <h3>Sistemas para Internet</h3>
+                          <h5 class="light grey-text text-lighten-3">Graduação Tecnológica</h5>
+                        </div>
+                      </li>
+                      </div>
+                      </li>
+            </div>
+  
+        <!-- codigo do corpo da pagina-->
+        <section class="row container">
+            <article class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                          <img src="./img/Cisco_Academy_Networking.png"alt="Imagem Academy Cisco"> 
+                        <a href="https://www.netacad.com/pt-br" 
+                            class="btn-floating halfway-fab blue darken-4"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Cisco networking academy</span>
+                            <p>
+                                "À medida que o mundo muda ao nosso redor, adquirir habilidades técnicas é o que traz a oportunidade, 
+                                e a promessa da educação é o que traz esperança. Quem vai ensinar e desenvolver essas pessoas que vão mudar o mundo, 
+                                esses solucionadores de problemas globais? Nós vamos. Junto com o nosso ensino, nossos instrutores e parceiros, 
+                                nos comprometemos a desenvolver a força de trabalho do futuro." Cisco academy 
+                            </p>
+                        </div>
+                </div>
+
+            </article>
+
+            <article class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                              <img src="./img/vmware.png"> 
+                            <a href="https://mylearn.vmware.com/mgrReg/plan.cfm?plan=69513&ui=www_edu" alt="Imagem Academy VMware IT"
+                                class="btn-floating halfway-fab blue darken-4"><i class="material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Vmware IT ACADEMY</span>
+                                <p>
+                                    "O treinamento e a certificação da VMware são um diferencial de mercado que abre as portas 
+                                    para uma carreira emocionante e recompensadora de TI. Com foco na construção das habilidades
+                                    práticas mais relevantes no local de trabalho, o treinamento e a certificação podem fornecer 
+                                    um valor real no mercado de trabalho. O Vmware IT ACADEMY inclui programas que atendem às necessidades de vários tipos de aulos." VWware
+                                </p>
+                            </div>
+                    </div>
+    
+                </article>
+
+                <article class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                  <img src="./img/aws.png" alt="Imagem Academy AWS"> 
+                                <a href="https://aws.amazon.com/pt/education/awsacademy/" 
+                                    class="btn-floating halfway-fab blue darken-4"><i class="material-icons">add</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">AWS ACADEMY</span>
+                                    <p>
+                                        "As trajetórias profissionais de nuvem do AWS Educate oferecem aos alunos acesso a créditos e treinamento, 
+                                        além da opção de escolher a carreira de nuvem desejada. O AWS Educate disponibiliza um caminho personalizado que inclui conteúdo, 
+                                        testes de conhecimento e distintivos que os orientam durante o processo de aprendizado. 
+                                        As trajetórias profissionais de nuvem estão disponíveis globalmente em todos os países." AWS Academy
+                                    </p>
+                                </div>
+                        </div>
+                </article>
+
+                    <article class="col s12 m6">
+                            <div class="card">
+                                <div class="card-image">
+                                      <img src="./img/oracle_academy.png" alt="Imagem Academy Oracle"> 
+                                    <a href="https://academy.oracle.com/en/oa-web-overview.html" 
+                                        class="btn-floating halfway-fab blue darken-4"><i class="material-icons">add</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">ORACLE ACADEMY</span>
+                                        <p>
+                                            "Como benefícios aos membros, o Oracle Academy oferece a professores e alunos recursos de ensino em computação
+                                             para promover o conhecimento, o desenvolvimento de habilidades, a inovação e a diversidade nos campos da tecnologia.
+                                            A computação não está restrita às empresas de tecnologia apenas: todos os alunos, em todos os lugares, 
+                                            precisam de acesso ao ensino para estarem prontos para a faculdade ou para a carreira profissional." Oracle Academy                                            
+                                        </p>
+                                    </div>
+                            </div>
+                         </article>
+        </section>
+
+        <section class="row cotainer">
+
+                <article class="col s12 m4">
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="./img/CompTIA_Academy.png" alt="Imagem Academy CompTIA">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">CompTIA Academy</span>
+                                <p>
+                                    "O Programa de Parceria da Academia da CompTIA fornece ferramentas e recursos valiosos 
+                                    para ajudar as escolas a recrutar, treinar, certificar e aprimorar as habilidades de seus alunos
+                                    em TI. O programa da Academia CompTIA é projetado para ajudar as escolas a promover a certificação
+                                    e melhorar as oportunidades de carreira dos estudantes." CompTIA Academy
+                                </p>
+                            </div>
+                            <div class="card-action"><a href="https://partners.comptia.org/become-a-partner/academy-partner">Ver detalhes</a></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col s12 m4">
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="./img/Microsoft_Imagine.png" alt="Imagem Microsoft Imagine">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <span class="card-title">Microsoft Imagine</span>
+                                    <p>
+                                        "O Microsoft Imagine conecta os alunos a ferramentas, experiências e recursos 
+                                        necessários para que possam aprimorar suas habilidades no mundo profissional atual. 
+                                        Seja na criação de um jogo, no design de um aplicativo ou no lançamento de um projeto, 
+                                        o Microsoft Imagine ajuda os alunos a desenvolver e dar vida a ideias, com ousadia." Microsoft Imagine
+                                    </p>
+                                </div>
+                                <div class="card-action"><a href="https://imagine.microsoft.com/pt-BR">Ver detalhes</a></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col s12 m4">
+                            <div class="card horizontal">
+                                <div class="card-image">
+                                    <img src="./img/EMC_ACADEMIC_ALLIANCE.png" alt="Imagem Academy EMC">
+                                </div>
+                                <div class="card-stacked">
+                                    <div class="card-content">
+                                        <span class="card-title">EMC ACADEMIC ALLIANCE</span>
+                                        <p>
+                                            "O programa EMC Academic Alliance oferece computação em nuvem, armazenamento de informações, 
+                                            gerenciamento e recuperação de sistemas e arquitetura de backup. Os cursos enfocam conceitos e 
+                                            princípios de tecnologia aplicável a qualquer ambiente, permitindo que os alunos 
+                                            desenvolvam conhecimentos e habilidades."  EMC ACADEMIC 
+                                        </p>
+                                    </div>
+                                    <div class="card-action"><a href="https://education.emc.com/academicalliance/default.aspx">Ver detalhes</a></div> 
+                            </div>
+                        </article>
+            </section>
+    <!--JavaScript e JQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+    <script type="text/javascript">
+      $('.button-collapse').sideNiv();
+      </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+      $('.slider').slider();
+        });s
+    </script>
+  </body>
 </html>
+      
