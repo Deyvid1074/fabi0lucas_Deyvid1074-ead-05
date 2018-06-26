@@ -1,9 +1,0 @@
-*Banner curso BSI= http://www.faculdadepromove.br/bh/sistemasdeinformacao
-Banner curso SI = http://www.faculdadepromove.br/bh/sistemasparainternet
-Banner curso REDES = http://www.faculdadepromove.br/bh/redesdecomputadores
-
-*Home = http://www.faculdadepromove.br/bh/home
-Pacerias = recaregar pagina 
-Aluno = https://promove.virtualclass.com.br/datacenter1/Index1.jsp
-
-*Mudar title(titulo pagina) para "PaceriasPromove".
